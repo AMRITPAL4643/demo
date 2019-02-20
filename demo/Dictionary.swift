@@ -7,7 +7,13 @@
 //
 
 import Foundation
-
+enum Color
+{
+    case white
+    case red
+    case blue
+    case yellow
+}
  class Dictionary
  {
  
@@ -19,6 +25,12 @@ import Foundation
         name[2]="samir"
         name[3]="amritpal"
         
+        
         print(name)
+         var color = Color.white
+        print(color)
+        color = .blue
+        print(color)
+        
     }
 }

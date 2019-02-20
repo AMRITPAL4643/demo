@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		22B8DBA9221DD37900808C13 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B8DBA8221DD37900808C13 /* main.swift */; };
+		22B8DBB1221DD42F00808C13 /* IDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B8DBB0221DD42F00808C13 /* IDisplay.swift */; };
+		22B8DBB3221DD50100808C13 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B8DBB2221DD50100808C13 /* Student.swift */; };
+		22B8DBB5221DD52F00808C13 /* Grades.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B8DBB4221DD52F00808C13 /* Grades.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		22B8DBA5221DD37900808C13 /* demo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = demo; sourceTree = BUILT_PRODUCTS_DIR; };
 		22B8DBA8221DD37900808C13 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		22B8DBB0221DD42F00808C13 /* IDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDisplay.swift; sourceTree = "<group>"; };
+		22B8DBB2221DD50100808C13 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		22B8DBB4221DD52F00808C13 /* Grades.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grades.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				22B8DBA8221DD37900808C13 /* main.swift */,
+				22B8DBB0221DD42F00808C13 /* IDisplay.swift */,
+				22B8DBB2221DD50100808C13 /* Student.swift */,
+				22B8DBB4221DD52F00808C13 /* Grades.swift */,
 			);
 			path = demo;
 			sourceTree = "<group>";
@@ -119,6 +128,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22B8DBB1221DD42F00808C13 /* IDisplay.swift in Sources */,
+				22B8DBB5221DD52F00808C13 /* Grades.swift in Sources */,
+				22B8DBB3221DD50100808C13 /* Student.swift in Sources */,
 				22B8DBA9221DD37900808C13 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

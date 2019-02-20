@@ -19,13 +19,19 @@ enum Color
  
     //dictionary
     var name=[Int:String]()
+   
     
     func data(){
         name[1]="mandy"
         name[2]="samir"
         name[3]="amritpal"
-        
-        
+        // use of set
+         let Fruits: Set = ["a","b"]
+        print(Fruits)
+        if Fruits.contains("a")
+        {
+            print("available")
+        }
         print(name)
          var color = Color.white
         print(color)

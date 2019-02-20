@@ -9,22 +9,33 @@
 import Foundation
 class Student:Grades
 {
-    var sid:String?
-    var name:String?
+    var sid:String
+    var name:String
     
     override init() {
-        super.init()
+        
         self.sid=String()
         self.name=String()
     }
     
-    func data(sid: String,name: String)
+    func data()
     {
         print("Enter Student ID::")
-        let id=readline()!
+        let id = readLine()!
         print("Enter Student Name::")
-        let nm=readline()!
+        let nm = readLine()!
+        print("Enter Marks1::")
+        let m1 = Float(readLine()!)
+        print("Enter Marks2::")
+        let m2 = Float(readLine()!)
+        print("Enter Marks3::")
+        let m3 = Float(readLine()!)
+let total = super.totalmarks(m1: m1!, m2: m2!, m3: m3!)
+     
+       super.displaydata(sid: id, name: nm, total: total,m1:m1!,m2:m2!,m3:m3!)
         
     }
+  
+    
     }
 

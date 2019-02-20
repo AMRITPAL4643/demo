@@ -8,11 +8,15 @@
 
 import Foundation
 
-class Grades
+class Grades:IDisplay
 {
-    var marks1:Float?
-    var marks2:Float?
-    var marks3:Float?
+     
+    
+   
+    
+    var marks1:Float
+    var marks2:Float
+    var marks3:Float
     
     init() {
         self.marks1=Float()
@@ -20,11 +24,22 @@ class Grades
         self.marks3=Float()
         
     }
-    
+    func displaydata(sid: String, name: String, total: Float,m1:Float,m2:Float,m3:Float) {
+        print("Student ID::\(sid)")
+        print("Student Name::\(name)")
+        print("marks1::\(m1)")
+        print("marks2::\(m2)")
+        print("marks3::\(m3)")
+        
+        print("--------------------------------------")
+        print("Total marks::\(total)")
+    }
     func totalmarks(m1:Float,m2:Float,m3:Float)-> Float
     {
-        var tot:Float?
+        var tot:Float
         tot=m1+m2+m3
-        return tot!
+        return tot
     }
+   
+
 }

@@ -10,3 +10,20 @@ import Foundation
 
 print("Hello, World!")
 
+
+let s=Student()
+//s.data()
+
+var a = [Int]()
+
+a.append(3)
+a.append(4)
+
+print(a)
+print("------------")
+let d = Dictionary()
+d.data()
+
+ 
+
+

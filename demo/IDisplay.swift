@@ -8,6 +8,6 @@
 
 import Foundation
 protocol IDisplay {
-    func displaydata()
+    func displaydata(sid: String, name: String, total: Float,m1:Float,m2:Float,m3:Float)
     
 }
